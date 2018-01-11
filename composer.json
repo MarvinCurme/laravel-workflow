@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Brexis\\LaravelWorkflow\\": "src/"
+            "Marvin\\LaravelWorkflow\\": "src/"
         }
     },
     "autoload-dev": {
@@ -24,10 +24,10 @@
         },
         "laravel": {
             "providers": [
-                "Brexis\\LaravelWorkflow\\WorkflowServiceProvider"
+                "Marvin\\LaravelWorkflow\\WorkflowServiceProvider"
             ],
             "aliases": {
-                "Workflow": "Brexis\\LaravelWorkflow\\Facades\\WorkflowFacade"
+                "Workflow": "Marvin\\LaravelWorkflow\\Facades\\WorkflowFacade"
             }
         }
     },
